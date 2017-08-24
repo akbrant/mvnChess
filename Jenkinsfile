@@ -6,8 +6,8 @@ pipeline {
         sh 'mvn clean'
         sh 'echo "Hello Brant!"'
         sh 'pwd'
-        sh 'hostname'
         sh '(exit 9)'
+        sh 'hostname'
       }
     }
     stage('Install') {
